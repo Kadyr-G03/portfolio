@@ -2,7 +2,7 @@ function Content() {
     return(
         <main>
             <section className='intro'>
-                fdfd
+                <img src="./public/kadyr.png" alt="" />
             </section>
         </main>
     );
