@@ -5,7 +5,7 @@ function Header() {
             <div className="middle">
                 <ul>
                     <li>
-                        <a href="">Gallery</a>
+                        <a href="">Galhhhhlery</a>
                     </li>
                     <li>
                         <a href="">About Me</a>
