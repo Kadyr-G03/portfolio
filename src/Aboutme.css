@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-around;
     .photo_me {
-        background-image: url('./public/12.jpg');
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/800px-Altja_j%C3%B5gi_Lahemaal.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
