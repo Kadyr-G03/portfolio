@@ -13,7 +13,7 @@ function Intro() {
                 visually captivating designs.
             </p>
         </span>
-        <img src="https://github.com/Kadyr-G03/portfolio/blob/main/public/kadyr.png" alt="it is me" />
+        <img src="././public/kadyr.png" alt="it is me" />
     </section>
     )
 }
