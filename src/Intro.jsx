@@ -13,7 +13,7 @@ function Intro() {
                 visually captivating designs.
             </p>
         </span>
-        <img src="https://static.vecteezy.com/system/resources/previews/024/558/262/non_2x/businessman-isolated-illustration-ai-generative-free-png.png" alt="it is me" />
+        <img src="https://github.com/Kadyr-G03/portfolio/blob/main/public/kadyr.png" alt="it is me" />
     </section>
     )
 }
