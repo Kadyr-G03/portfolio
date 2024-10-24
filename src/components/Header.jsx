@@ -9,7 +9,6 @@ function Header() {
         <span className="min-[0px]:hidden min-[800px]:block">
             <a href="#gallery" className="mx-5 transition-all text-zinc-200 hover:text-zinc-50">Gallery</a>
             <a href="#about_me" className="mx-5 transition-all text-zinc-200 hover:text-zinc-50">About me</a>
-            <a href="#" className="mx-5 transition-all text-zinc-200 hover:text-zinc-50">Experience</a>
             <a href="#skills_and_tools" className="mx-5 transition-all text-zinc-200 hover:text-zinc-50">Skills & Tools</a>
         </span>
         <a href="#contact" className="min-[0px]:hidden min-[800px]:block font-semibold transition-all text-zinc-200 hover:text-zinc-50">Contact</a>
