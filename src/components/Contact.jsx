@@ -4,7 +4,7 @@ function Contact() {
             <div className="bg-zinc-50 h-[30px] w-full"></div>
             <div className="bg-zinc-950 h-[25px] w-full min-[1000px]:hidden"></div>
             <div className="w-full flex flex-row items-center justify-center">
-                <div className="hidden flex flex-col content-center h-[730px] bg-cover bg-center bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-[540px] min-[1000px]:block">
+                <div className="hidden flex flex-col content-center h-[730px] bg-cover bg-center bg-[url('https://img.freepik.com/free-vector/abstract-black-shapes-background-design_1017-31904.jpg')] w-[540px] min-[1000px]:block">
                     <span className="flex flex-col items-end">
                         <span className="flex flex-row items-center m-[30px]">
                             <span className="text-zinc-200 font-semibold text-right">

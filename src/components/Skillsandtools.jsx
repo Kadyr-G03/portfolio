@@ -6,23 +6,23 @@ function Skillsandtools() {
             <span className="text-zinc-50 font-bold py-[20px] text-[30px]">Skills & Tools</span>
             <div className="w-full flex flex-row flex-wrap justify-center max-w-[1200px]">
                 <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
-                    <div className="rounded-[10px] bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-full h-[170px] bg-cover"></div>
+                    <div className="rounded-[10px] bg-[url('https://img.freepik.com/free-photo/abstract-multi-colored-illustration-nature-vibrant-beauty-generated-by-ai_188544-15591.jpg')] w-full h-[170px] bg-cover"></div>
                     <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">Graphic Design</span>
                 </a>
                 <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
-                    <div className="rounded-[10px] bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-full h-[170px] bg-cover"></div>
-                    <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">UI/UX Design</span>
-                </a>
-                <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
-                    <div className="rounded-[10px] bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-full h-[170px] bg-cover"></div>
-                    <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">High-End Retouching</span>
-                </a>
-                <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
-                    <div className="rounded-[10px] bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-full h-[170px] bg-cover"></div>
+                    <div className="rounded-[10px] bg-[url('https://img.freepik.com/free-vector/tiny-programmers-big-laptop-writing-script-coders-app-developers-with-computers-flat-vector-illustration-programming-engineering-software-development-concept-banner-landing-web-page_74855-25360.jpg')] w-full h-[170px] bg-cover"></div>
                     <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">Illustration</span>
                 </a>
                 <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
-                    <div className="rounded-[10px] bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')] w-full h-[170px] bg-cover"></div>
+                    <div className="rounded-[10px] bg-[url('https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg')] w-full h-[170px] bg-cover"></div>
+                    <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">UI/UX Design</span>
+                </a>
+                <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
+                    <div className="rounded-[10px] bg-[url('https://img.freepik.com/premium-photo/sidebyside-comparison-before-after-photo-showcasing-editing-process_14117-1031193.jpg')] w-full h-[170px] bg-cover"></div>
+                    <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">High-End Retouching</span>
+                </a>
+                <a href="#" className="w-[300px] m-[10px] block flex flex-col items-center min-[800px]:w-[340px]">
+                    <div className="rounded-[10px] bg-[url('https://img.freepik.com/premium-vector/creative-idea-exploration-mixed-media-handdrawn-vector-art_1332465-27507.jpg')] w-full h-[170px] bg-cover"></div>
                     <span className="text-zinc-200 font-semibold text-[20px] py-[3px]">Creativity</span>
                 </a>
             </div>

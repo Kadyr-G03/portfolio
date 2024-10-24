@@ -7,31 +7,18 @@ function App() {
                 <a className="font-semibold text-[36px] pl-[20px] pt-[15px] min-[800px]:pl-[30px]" href="#">Gallery</a>
                 <a className="pr-[20px] pt-[15px] min-[800px]:pr-[30px]" href="#">see all</a>
             </span>
-            <div className="my-[30px] grid grid-cols-1 min-[800px]:grid-cols-2 min-[1200px]:grid-cols-3">
-                <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                    <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                    <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                </a>
-                    <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                        <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                        <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                    </a>
-                    <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                        <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                        <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                    </a>
-                    <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                        <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                        <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                    </a>
-                    <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                        <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                        <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                    </a>
-                    <a href="#" className="block flex flex-col items-center m-[20px] w-[340px] h-[600px]">
-                        <div className="rounded-[10px] h-[550px] w-full max-w-[310px] bg-cover bg-[url('https://www.oneclickitsolution.com/blog/wp-content/uploads/2024/01/What-is-GDS-1-min.webp')]"></div>
-                        <span className="py-[10px] text-[30px] font-bold">Photography</span>
-                    </a>
+
+            <div class="px-[20px] py-[50px]">
+                <div class="columns-1 gap-8 space-y-8 min-[700px]:columns-2 min-[1100px]:columns-3">
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x400" alt="Gallery Image 1" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x500" alt="Gallery Image 2" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x350" alt="Gallery Image 3" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x450" alt="Gallery Image 4" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x500" alt="Gallery Image 5" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x400" alt="Gallery Image 6" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x350" alt="Gallery Image 7" class="w-full h-auto object-cover" />
+                    <img className="break-inside-avoid w-[300px] rounded-[20px]" src="https://via.placeholder.com/300x450" alt="Gallery Image 8" class="w-full h-auto object-cover" />
+                </div>
             </div>
         </section>
     )

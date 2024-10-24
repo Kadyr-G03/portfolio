@@ -1,7 +1,7 @@
 function Intro() {
     return (
       <section id="intro" className="pt-[55px] flex flex-col items-center text-zinc-50 w-full bg-zinc-950 max-w-[1920px] min-[800px]:flex-row-reverse justify-around">
-        <img className="w-11/12 min-[800px]:w-6/12" src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-in-shirt-smiles-and-gives-thumbs-up-to-show-approval-png-image_13146336.png" alt="" />
+        <img className="w-11/12 min-[800px]:w-6/12" src="https://static.vecteezy.com/system/resources/previews/035/593/765/non_2x/ai-generated-happy-boy-cartoon-ai-generative-free-png.png" alt="" />
         <span className="p-[30px] flex flex-col items-center min-[800px]:w-6/12 min-[800px]:items-start">
             <p className="font-bold text-[38px] min-[400px]:text-[44px] min-[1000px]:text-[70px] min-[800px]:px-[70px]">I’m Kadyr</p>
 
