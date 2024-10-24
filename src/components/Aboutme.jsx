@@ -11,27 +11,12 @@ function Aboutme() {
                     <p className="p-[10px] font-bold text-[38px] min-[400px]:text-[44px] min-[1000px]:text-[70px]">About Me</p>
                     <br />
                     <p className="py-[10px] text-[14px] min-[400px]:text-[18px] min-[400px]:w-[350px] min-[600px]:text-[20px] min-[600px]:w-[500px] min-[600px]:text-[22px] min-[1200px]:w-[600px] leading-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris nisi 
-                        ut aliquip ex ea commodo consequat.
+                    I am a passionate creative designer with a deep love for turning ideas into visually striking realities. With a keen eye for detail and a flair for innovative design, I transform concepts into powerful visual experiences. From branding to digital art, my work blends artistry and functionality to craft designs that not only stand out but also tell a story.                        <br />
+                        <br />
+                        I specialize in transforming images into polished masterpieces while preserving their natural beauty. With a deep understanding of lighting, textures, and composition, I elevate photos to their full potential, creating visuals that captivate and leave a lasting impression.
                         <br />
                         <br />
-                        Duis aute irure dolor in reprehenderit in 
-                        voluptate velit esse cillum dolore eu fugiat 
-                        nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui 
-                        officia deserunt mollit anim id est 
-                        laborum.
-                        <br />
-                        <br />
-                        Duis aute irure dolor in reprehenderit in 
-                        voluptate velit esse cillum dolore eu fugiat 
-                        nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui 
-                        officia deserunt mollit anim id est 
-                        laborum.
+                        In both design and photo retouching, my goal is to create visually stunning work that resonates with audiences and brings ideas to life. Through a blend of creativity, technical skill, and attention to detail, I aim to craft experiences that are memorable and impactful.
                     </p>
                     <Links />
                 </span>
