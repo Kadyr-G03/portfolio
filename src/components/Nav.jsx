@@ -17,13 +17,17 @@ function Nav() {
         </span>
         <section className={isToggled ? 'z-20 transition-all w-full max-w-[350px] min-[800px]:hidden right-0 h-screen fixed bg-zinc-950 max-w-[1920px] flex flex-col items-center justify-between' : 'z-20 w-full max-w-[350px] min-[800px]:hidden right-0 h-screen fixed bg-zinc-950 max-w-[1920px] flex flex-col items-center justify-between right-[-350px] transition-all '} id="nav">
           <span className="block w-full flex flex-row justify-between items-center h-[55px]">
-              <a className="mx-[20px] text-zinc-50 font-semibold text-[30px]" href="#">Menu</a>
+              <a onClick={handleClick} className="mx-[20px] text-zinc-50 font-semibold text-[30px]" href="#intro">
+              <svg className="mx-[15px] fill-zinc-200 w-6 h-6 transition-all hover:fill-zinc-50" viewBox="0 0 25 25">
+                <polygon className="st0" points="1.81,0.01 7.64,0.02 7.64,7.15 3.58,11.73 4.39,12.46 15.37,0.01 23.5,0.02 12.39,12.48 23.5,25 15.37,25 7.64,16.14 7.64,25 1.81,25 "/>
+            </svg>
+              </a>
           </span>
           <span className="flex flex-col items-center">
-              <a className="px-[20px] text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="">Gallery</a>
-              <a className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="">About me</a>
-              <a className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="">Skills & Tools</a>
-              <a className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="">Contact</a>
+              <a onClick={handleClick} className="px-[20px] text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="#gallery">Gallery</a>
+              <a onClick={handleClick} className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="#about_me">About me</a>
+              <a onClick={handleClick} className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="#skills_and_tools">Skills & Tools</a>
+              <a onClick={handleClick} className="text-zinc-200 text-[25px] py-[20px] transition-all hover:text-zinc-50" href="#contact">Contact</a>
           </span>
           <Links /> 
           
