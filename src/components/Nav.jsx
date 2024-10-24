@@ -28,7 +28,7 @@ function Nav() {
           <Links /> 
           
         </section>
-        <span className={isToggled ? 'transition-all hidden' : 'transition-all block w-full h-screen bg-zinc-950/60 backdrop-blur-md z-10 fixed'}></span>
+        <span className={isToggled ? 'transition-all block w-full h-screen bg-zinc-950/60 backdrop-blur-md z-10 fixed' : 'transition-all hidden'}></span>
       </>
     )
   }
