@@ -85,7 +85,7 @@ function Contact() {
                     </span>
                 </div>
                 {isSubmitted ? (
-                    <span className="text-zinc-50 p-[100px] font-semibold text-[30px] text-center"><span className="text-[50px]">Thank you</span><br /><br /><br />Your message has been sent successfully!<br /><br />I will get it touch with you soon!</span>
+                    <span className="text-zinc-50 p-[100px] font-semibold text-[24px] min-[800px]:text-[35px] text-center"><span className="text-[50px]">Thank you</span><br /><br /><br />Your message has been sent successfully!<br /><br />I will get it touch with you soon!</span>
                 ) : (
                 <form onSubmit={handleSubmit} className="w-full min-[1000px]:w-[540px] flex flex-col items-center min-[1000px]:items-start" action="">
                     <span className="text-zinc-50 text-[48px] font-bold py-[20px] min-[1000px]:pl-[80px] min-[1000px]:py-[30px]">Contact</span>
