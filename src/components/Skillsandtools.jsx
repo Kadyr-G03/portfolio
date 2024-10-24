@@ -27,7 +27,7 @@ function Skillsandtools() {
                 </a>
             </div>
             <div className="py-[30px] w-10/12 flex flex-row flex-wrap justify-center max-w-[1000px]">
-                <div className="w-[120px] h-[120px] m-[10px] flex flex-col items-center rounded-[10px]">
+                <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[10px]">
                     <svg version="1.1" x="0px" y="0px"
                             viewBox="0 0 240 234">
                         <g id="Layer_2_1_">
@@ -61,7 +61,7 @@ function Skillsandtools() {
                     </svg>
                 </div>
                 
-                <div className="w-[120px] h-[120px] m-[10px] flex flex-col items-center rounded-[10px]">
+                <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[10px]">
                 <svg viewBox="0 0 255 255">
                     <g>
                         <path fill="#001E36" d="M45.4,0H211c25.1,0,45.4,20.3,45.4,45.4v159.2c0,25.1-20.3,45.4-45.4,45.4H45.4C20.3,250,0,229.7,0,204.6
@@ -79,13 +79,13 @@ function Skillsandtools() {
                     </g>
                 </svg>
                 </div>
-                <div className="w-[120px] h-[120px] m-[10px] flex flex-col items-center rounded-[10px]">
+                <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[10px]">
                 <svg viewBox="0 0 240 240">
                     <path fill="#300" d="M42.5 0h155C221 0 240 19 240 42.5v149c0 23.5-19 42.5-42.5 42.5h-155C19 234 0 215 0 191.5v-149C0 19 19 0 42.5 0z"/>
                     <path fill="#ff9a00" d="M116 140H78.8l-7.6 23.5c-.2.9-1 1.5-1.9 1.4H50.5c-1.1 0-1.4-.6-1.1-1.8l32.2-92.7c.3-1 .6-2.1 1-3.3.4-2.1.6-4.3.6-6.5-.1-.5.3-1 .8-1.1h25.9c.8 0 1.2.3 1.3.8l36.5 103c.3 1.1 0 1.6-1 1.6h-20.9c-.7.1-1.4-.4-1.6-1.1L116 140zm-31.4-20.3H110c-.6-2.1-1.4-4.6-2.3-7.2-.9-2.7-1.8-5.6-2.7-8.6-1-3.1-1.9-6.1-2.9-9.2s-1.9-6-2.7-8.9c-.8-2.8-1.5-5.4-2.2-7.8H97c-.9 4.3-2 8.6-3.4 12.9-1.5 4.8-3 9.8-4.6 14.8-1.4 5.1-2.9 9.8-4.4 14zM170 77c-3.3.1-6.5-1.2-8.9-3.5-2.3-2.5-3.5-5.8-3.4-9.2-.1-3.4 1.2-6.6 3.6-8.9s5.6-3.5 8.9-3.5c3.9 0 6.9 1.2 9.1 3.5 2.2 2.4 3.4 5.6 3.3 8.9.1 3.4-1.1 6.7-3.5 9.2-2.3 2.4-5.7 3.7-9.1 3.5zm-11.2 86.8v-77c0-1 .4-1.4 1.3-1.4h19.8c.9 0 1.3.5 1.3 1.4v77c0 1.1-.4 1.6-1.3 1.6h-19.6c-1 0-1.5-.6-1.5-1.6z"/>
                 </svg>
                 </div>
-                <div className="w-[120px] h-[120px] m-[10px] flex flex-col items-center rounded-[10px]">
+                <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[10px]">
                     <svg viewBox="0 0 240 240">
                         <path class="fill-[#49021F]" d="M42.5,0h155C221,0,240,19,240,42.5v149c0,23.5-19,42.5-42.5,42.5h-155C19,234,0,215,0,191.5v-149   C0,19,19,0,42.5,0z"/>
                         <g>
@@ -97,7 +97,7 @@ function Skillsandtools() {
 
                     </svg>
                 </div>
-                <div className="w-[120px] h-[120px] m-[10px] flex flex-col items-center rounded-[20px] bg-[#1E1E1E]">
+                <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[20px] bg-[#1E1E1E]">
                     <svg className="w-[120px] h-[120px] p-[10px] " viewBox="-50 0 300 300"><path id="path0_fill" class="fill-[#0acf83]" d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z"/><path id="path1_fill" class="fill-[#a259ff]" d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z"/><path id="path1_fill_1_" class="fill-[#f24e1e]" d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z"/><path id="path2_fill" class="fill-[#ff7262]" d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z"/><path id="path3_fill" class="fill-[#1abcfe]" d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z"/></svg>
                 </div>
             </div>
