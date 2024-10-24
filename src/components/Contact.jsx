@@ -1,4 +1,48 @@
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+
 function Contact() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+      });
+    
+      const [isSubmitted, setIsSubmitted] = useState(false);
+      const [errorMessage, setErrorMessage] = useState("");
+    
+      const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        // Check if all fields are filled
+        if (!formData.name  || !formData.email || !formData.message) {
+          setErrorMessage("Please fill out all fields");
+          return;
+        }
+    
+        // EmailJS configuration
+        const serviceId = "portfolio_form"; // Replace with your service ID
+        const templateId = "portfolio_temp"; // Replace with your template ID
+        const userId = "PVbDX_C52SYeUtYax"; // Replace with your EmailJS user ID
+    
+        emailjs
+          .send(serviceId, templateId, formData, userId)
+          .then((response) => {
+            console.log("SUCCESS!", response.status, response.text);
+            setIsSubmitted(true);
+            setErrorMessage(""); // Clear error message
+            setFormData({ name: "", surname: "", email: "", message: "" }); // Clear the form
+          })
+          .catch((error) => {
+            console.error("FAILED...", error);
+            setErrorMessage("Sorry, something went wrong. Please try again.");
+          });
+      };
+
     return (
         <section id="contact" className="min-[1000px]:h-[760px] w-full max-w-[1920px] bg-zinc-950">
             <div className="bg-zinc-50 h-[30px] w-full"></div>
@@ -40,14 +84,19 @@ function Contact() {
                         </span>
                     </span>
                 </div>
-                <form className="w-full min-[1000px]:w-[540px] flex flex-col items-center min-[1000px]:items-start" action="">
+                {isSubmitted ? (
+                    <span className="text-zinc-50 p-[100px] font-semibold text-[30px] text-center"><span className="text-[50px]">Thank you</span><br /><br /><br />Your message has been sent successfully!<br /><br />I will get it touch with you soon!</span>
+                ) : (
+                <form onSubmit={handleSubmit} className="w-full min-[1000px]:w-[540px] flex flex-col items-center min-[1000px]:items-start" action="">
                     <span className="text-zinc-50 text-[48px] font-bold py-[20px] min-[1000px]:pl-[80px] min-[1000px]:py-[30px]">Contact</span>
-                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[60px] w-10/12 max-w-[380px]" type="text" placeholder="Name" />
-                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[60px] w-10/12 max-w-[380px]" type="text" placeholder="Surname" />
-                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[60px] w-10/12 max-w-[380px]" type="text" placeholder="Email" />
-                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[185px] w-10/12 max-w-[380px]" type="text" placeholder="Message" />
-                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-300 hover:bg-zinc-200 rounded-[10px] text-zinc-900 font-bold h-[60px] w-10/12 max-w-[380px]" type="submit" value="Submit" />
+                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[60px] w-10/12 max-w-[380px]" type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
+                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[60px] w-10/12 max-w-[380px]" type="email" id="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
+                    <input className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-800 hover:bg-zinc-700 rounded-[10px] indent-8 focus:outline-0 focus:bg-zinc-700 text-zinc-200 font-semibold h-[185px] w-10/12 max-w-[380px]" type="text" id="message" name="message" value={formData.message} onChange={handleChange} placeholder="Message" required />
+                    {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+                    <button className="transition-all min-[1000px]:ml-[60px] my-[10px] bg-zinc-300 hover:bg-zinc-200 rounded-[10px] text-zinc-900 font-bold h-[60px] w-10/12 max-w-[380px]" type="submit" value="Submit">Submit</button>
                 </form>
+            )
+            };
             </div>
             <div className="bg-zinc-950 h-[25px] w-full min-[1000px]:hidden"></div>
         </section>
@@ -55,4 +104,3 @@ function Contact() {
   }
   
   export default Contact
-

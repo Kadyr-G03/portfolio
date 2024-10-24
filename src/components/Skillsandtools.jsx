@@ -60,7 +60,6 @@ function Skillsandtools() {
                         </g>
                     </svg>
                 </div>
-                
                 <div className="w-[100px] h-[100px] m-[10px] flex flex-col items-center rounded-[10px]">
                 <svg viewBox="0 0 255 255">
                     <g>
